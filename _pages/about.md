@@ -8,7 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-This is Xu Hao's homepage. I am work on aerial swarm, interesting in modelairplanes.
+I am a PhD student of ECE at Hong Kong University of Science and Technology. My research interests lie primarily in UAV, including aerial swarm. 
+
+In my spare time, I am interesting in RC modelairplane, including fixed-wing, helicopter and racing drone.
+
 ![swarm](/images/uav_swarm_5.png)
 ![swarm](/images/IMG_20200228_172650.jpg)
 ![swarm](/images/heli.jpg)
