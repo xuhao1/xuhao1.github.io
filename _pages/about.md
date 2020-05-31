@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student of ECE at Hong Kong University of Science and Technology. My research interests lie primarily in UAV, including aerial swarm and other active topics in UAV. 
+I am a PhD student of ECE at Hong Kong University of Science and Technology. My research interests is in UAV, including aerial swarm and other active topics in UAV. 
 
 In my spare time, I am interesting in RC modelairplane, including fixed-wing, helicopter and racing drone.
 
