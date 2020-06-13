@@ -30,4 +30,4 @@ Support only old unreal version
 
 ## firmware_heli
 [firmware_heli](https://github.com/xuhao1/firmware_heli) is my modification of PX4 firmware for helicopter with system identification features.
-![Heli](https://github.com/xuhao1/xuhao1.github.io/blob/master/images/heli2.jpg)
+![Heli](https://raw.githubusercontent.com/xuhao1/xuhao1.github.io/master/images/heli2.jpg)
