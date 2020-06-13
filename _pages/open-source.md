@@ -9,7 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-# Current Projects
 ## pyAircraftIden
 
 [pyAircraftIden](https://github.com/xuhao1/pyAircraftIden) is an open-source aircraft identification library in python.
