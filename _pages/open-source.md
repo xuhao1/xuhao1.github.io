@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Open Source Project"
+title: "Open Source Projects"
 permalink: /open-source/
 author_profile: true
 redirect_from:
