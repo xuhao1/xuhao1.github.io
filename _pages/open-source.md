@@ -15,7 +15,9 @@ redirect_from:
 [pyAircraftIden](https://github.com/xuhao1/pyAircraftIden) is an open-source aircraft identification library in python.
 
 ![workflow](https://raw.githubusercontent.com/xuhao1/pyAircraftIden/master/plots/workflow.PNG)
-![trans](https://github.com/xuhao1/pyAircraftIden/blob/master/plots/ele_q_transferfunc.PNG)
+
+![trans](https://raw.githubusercontent.com/xuhao1/pyAircraftIden/master/plots/ele_q_transferfunc.PNG)
+
 ![ssm](https://raw.githubusercontent.com/xuhao1/pyAircraftIden/master/plots/ts_ssm.PNG)
 
 ## VINS-Fusion-Fisheye
