@@ -4,7 +4,7 @@ title: "Open Source Projects"
 permalink: /dcs/
 author_profile: true
 redirect_from:
-  - /opensource
+  - /dcs
 ---
 
 {% include base_path %}
