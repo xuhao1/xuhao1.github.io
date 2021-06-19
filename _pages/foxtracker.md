@@ -25,12 +25,10 @@ This program is still under development, not stable yet. **I will never collect 
 Download FOXTracker at [Release](https://github.com/xuhao1/FOXTracker/releases)
 
 
-This program supports control games directly or uses Opentrack as backend. For now, the spline function is in development, so use Opentrack is a good idea. If you are using this program individually, please modify config or the config.yaml.
-
-![c1](./docs/config.PNG)
+This program supports control games directly or uses Opentrack as backend. For now, the spline function is in development, so use Opentrack is a good idea. If you are using this program individually, please modify config:
+![c1](https://raw.githubusercontent.com/xuhao1/FOXTracker/0.1.x/docs/config.PNG)
 
 Just turn your opentrack input to UDP and open FlightAgentX.exe. Everything works fine.
-![c1](https://raw.githubusercontent.com/xuhao1/FOXTracker/0.1.x/docs/config.PNG)
 ![c2](https://raw.githubusercontent.com/xuhao1/FOXTracker/0.1.x/docs/opentracker_config2.PNG)
 
 Also, you may use [dcs.ini](https://raw.githubusercontent.com/xuhao1/FOXTracker/0.1.x/docs/dcs.ini) here.
