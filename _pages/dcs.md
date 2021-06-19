@@ -11,6 +11,7 @@ redirect_from:
 
 ## FOXTracker
 FOXTracker is a facial head tracker for gaming usage. Perform as TrackIR or Opentrack (pointtracker) as track camera controller for Flight Simulation Games like DCS.
+Click [here](http://foxt.xuhao1.me) for details.
 ![](https://raw.githubusercontent.com/xuhao1/FOXTracker/0.1.x/docs/screenshot.png)
 
 ## DCSNoJoy
