@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Open Source Projects"
-permalink: /open-source/
+permalink: /dcs/
 author_profile: true
 redirect_from:
   - /opensource
