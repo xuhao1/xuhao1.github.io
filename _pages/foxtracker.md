@@ -65,7 +65,7 @@ LGPL
 
 ## 介绍
 这是一个基于面部识别的头瞄，用于模拟类游戏。和TrackIR或者[opentrack](https://github.com/opentrack/opentrack)（如国内流行的pointtracker）功能类似，但是只需要摄像头。
-请参阅[中文文档](https://raw.githubusercontent.com/xuhao1/FOXTracker/0.1.x/docs/user_manual_chinese.md)
+请参阅[中文文档](https://github.com/xuhao1/FOXTracker/blob/0.1.x/docs/user_manual_chinese.md)
 
 
 视频见b站 https://www.bilibili.com/video/BV1ey4y1C7Za
