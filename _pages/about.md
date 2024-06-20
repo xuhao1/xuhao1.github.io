@@ -8,8 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD of ECE at Hong Kong University of Science and Technology. My research interests is in UAV, including aerial swarm and other active topics in UAV. I am now looking for a postdoc position in the field of UAV. If you are interested in my research, please contact me via email: xuhao3e8 AT gmail.com
-
+I received the B.Sc. degree in Physics from the University of Science and Technology, and the Ph.D. degree in Electronic and Computer Engineering (ECE) from the Hong Kong University of Science and Technology, Hong Kong, in 2023. I am currently working as an algorithm engineer at Shenzhen DJI Sciences and Technologies Ltd. My research interests include unmanned aerial vehicles, aerial swarm, state estimation, sensor fusion, localization, and mapping.
 
 In my spare time, I am interesting in RC modelairplane, including fixed-wing, helicopter and racing drone.
 
