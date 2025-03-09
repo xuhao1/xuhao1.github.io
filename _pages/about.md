@@ -8,12 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I am currently an associate research professor at the Institute of Unmanned Systems, Beihang University (BUAA, previous known as Beijing University of Aeronautics and Astronautics). I received the B.Sc. degree in Physics from the University of Science and Technology, and the Ph.D. degree in Electronic and Computer Engineering (ECE) from the Hong Kong University of Science and Technology, Hong Kong, in 2023. I am currently working as an algorithm engineer at Shenzhen DJI Sciences and Technologies Ltd. My research interests include unmanned aerial vehicles, aerial swarm, state estimation, sensor fusion, localization, and mapping.
+I am currently an associate professor at the Institute of Unmanned Systems, Beihang University (BUAA, previous known as Beijing University of Aeronautics and Astronautics). I received the B.Sc. degree in Physics from the University of Science and Technology, and the Ph.D. degree in Electronic and Computer Engineering (ECE) from the Hong Kong University of Science and Technology, Hong Kong, in 2023. I worked as an algorithm engineer at Shenzhen DJI Sciences and Technologies Ltd. My research interests include embodied AI, unmanned aerial vehicles, aerial swarm, state estimation, sensor fusion, localization, and mapping.
 
 In my spare time, I am interesting in RC modelairplane, including fixed-wing, helicopter and racing drone.
 
 Please check my [publications](/publications/) and [Open Source Projects](/open-source/) 
-Visit my homepage at Beihang Univeristy [中文](https://shi.buaa.edu.cn/xuhao/zh_CN/index.htm), [English](https://shi.buaa.edu.cn/xuhao/en_US/index.htm)
+If you are insteresting in working with me at Beihang University, please visit my homepage at Beihang Univeristy [中文](https://shi.buaa.edu.cn/xuhao/zh_CN/index.htm), [English](https://shi.buaa.edu.cn/xuhao/en_US/index.htm)
 
 
 
