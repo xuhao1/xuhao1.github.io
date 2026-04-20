@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am join Nanjing Unverisity as a tenure-track associate professor at the School of Intelligence Science and Technology. I received the B.Sc. degree in Physics from the University of Science and Technology, and the Ph.D. degree in Electronic and Computer Engineering (ECE) from the Hong Kong University of Science and Technology, Hong Kong, in 2023. I worked as an algorithm engineer at Shenzhen DJI Sciences and Technologies Ltd. My research interests include embodied AI, unmanned aerial vehicles, aerial swarm, state estimation, sensor fusion, localization, and mapping.
+I am joining Nanjing Unverisity as a tenure-track associate professor at the School of Intelligence Science and Technology. I received the B.Sc. degree in Physics from the University of Science and Technology, and the Ph.D. degree in Electronic and Computer Engineering (ECE) from the Hong Kong University of Science and Technology, Hong Kong, in 2023. I worked as an algorithm engineer at Shenzhen DJI Sciences and Technologies Ltd. My research interests include embodied AI, unmanned aerial vehicles, aerial swarm, state estimation, sensor fusion, localization, and mapping.
 
 In my spare time, I am interesting in RC modelairplane, including fixed-wing, helicopter and racing drone.
 
