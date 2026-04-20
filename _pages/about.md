@@ -13,7 +13,7 @@ I am joining Nanjing Unverisity as a tenure-track associate professor at the Sch
 In my spare time, I am interesting in RC modelairplane, including fixed-wing, helicopter and racing drone.
 
 Please check my [publications](/publications/) and [Open Source Projects](/open-source/) 
-If you are insteresting in working with me at Beihang University, please visit my homepage at Beihang Univeristy [中文](https://shi.buaa.edu.cn/xuhao/zh_CN/index.htm), [English](https://shi.buaa.edu.cn/xuhao/en_US/index.htm)
+If you are insteresting in working with me at Nanjing University, please visit my homepage at [中文](https://shi.buaa.edu.cn/xuhao/zh_CN/index.htm), [English](https://shi.buaa.edu.cn/xuhao/en_US/index.htm) and email to me.
 
 
 
