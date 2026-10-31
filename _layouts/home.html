@@ -1,0 +1,196 @@
+{% include base_path %}<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    {% include seo.html %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f1d2b'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' font-weight='700' text-anchor='middle' fill='%23ffffff'%3EHX%3C/text%3E%3Ccircle cx='51' cy='14' r='5' fill='%23e8562a'/%3E%3C/svg%3E">
+    <link rel="apple-touch-icon" href="{{ base_path }}/images/home/profile.jpg">
+    <link rel="alternate" type="application/atom+xml" href="{{ base_path }}/feed.xml" title="{{ site.title }} Feed">
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/home.css?v=2026-10-31">
+  </head>
+  <body class="hx">
+    <a class="hx-skip" href="#main">Skip to content</a>
+
+    <header class="hx-nav">
+      <div class="hx-wrap hx-nav__inner">
+        <a class="hx-nav__brand" href="{{ base_path }}/">Hao Xu <span lang="zh">徐浩</span></a>
+        <nav class="hx-nav__links" aria-label="Sections">
+          <a href="#news">News</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#projects">Projects</a>
+          <a href="#play">Play</a>
+          <a class="hx-nav__cta" href="https://www.soar-lab.org/">SOARLAB ↗</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hx-wrap hx-hero">
+        <div class="hx-hero__text">
+          <p class="hx-eyebrow"><span class="hx-dot"></span>Nanjing University · SOARLAB</p>
+          <h1 class="hx-hero__name">Hao Xu <span lang="zh">徐浩</span></h1>
+          <p class="hx-hero__role">
+            Tenure-track Associate Professor<br>
+            School of Intelligence Science and Technology, Nanjing University
+          </p>
+          <div class="hx-hero__bio">{{ content }}</div>
+          <ul class="hx-links">
+            {% for link in site.data.home.links %}
+              <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+            {% endfor %}
+          </ul>
+          <a class="hx-recruit" href="https://www.soar-lab.org/recruiting/">
+            <img src="{{ base_path }}/images/home/soarlab.png" alt="" width="44" height="44">
+            <span>
+              <strong>Join SOARLAB</strong>
+              <small>Recruiting Ph.D. and master's students for 2027 →</small>
+            </span>
+          </a>
+        </div>
+
+        <figure class="hx-hero__photo">
+          <img src="{{ base_path }}/images/home/profile.jpg" alt="Hao Xu holding a radio transmitter beside a hovering quadrotor" width="720" height="720">
+          <svg class="hx-flight" viewBox="0 0 400 400" aria-hidden="true">
+            <path id="hx-orbit" class="hx-flight__path" d="M 30 290 C 10 150, 140 10, 270 40 S 420 230, 330 330 S 90 400, 30 290 Z"></path>
+            <g class="hx-flight__craft">
+              <path d="M -9 -7 L 12 0 L -9 7 L -4 0 Z"></path>
+              <animateMotion dur="14s" repeatCount="indefinite" rotate="auto">
+                <mpath href="#hx-orbit"></mpath>
+              </animateMotion>
+            </g>
+          </svg>
+        </figure>
+      </section>
+
+      <section class="hx-wrap hx-section" id="news">
+        <header class="hx-section__label"><span>01</span><h2>News</h2></header>
+        <ol class="hx-news">
+          {% for item in site.data.home.news %}
+            <li class="hx-news__item">
+              <div class="hx-news__meta">
+                <time>{{ item.date }}</time>
+                <span class="hx-tag hx-tag--{{ item.tag | downcase }}">{{ item.tag }}</span>
+              </div>
+              <p>{{ item.text }}</p>
+            </li>
+          {% endfor %}
+        </ol>
+      </section>
+
+      <section class="hx-wrap hx-section" id="research">
+        <header class="hx-section__label"><span>02</span><h2>Research</h2></header>
+        <div class="hx-research">
+          <div class="hx-research__text">
+            <p>
+              I work on embodied intelligence for robots that fly, walk, and work together: robotics agents that perceive,
+              plan, and act on real hardware; world-action and vision-language-action foundation models for drones,
+              humanoids, and flying humanoids; and the state estimation, SLAM, and swarm systems underneath them.
+            </p>
+            <ul class="hx-chips">
+              {% for interest in site.data.home.interests %}
+                <li>{{ interest }}</li>
+              {% endfor %}
+            </ul>
+            <a class="hx-arrow-link" href="https://www.soar-lab.org/research/">Research at SOARLAB →</a>
+          </div>
+          <figure class="hx-research__image">
+            <img src="{{ base_path }}/images/uav_swarm_5.png" alt="A swarm of five quadrotors flying together" loading="lazy">
+            <figcaption>Omni-Swarm: decentralized state estimation for aerial swarms.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="hx-wrap hx-section" id="publications">
+        <header class="hx-section__label"><span>03</span><h2>Selected Publications</h2></header>
+        <div>
+          <ol class="hx-pubs">
+            {% for pub in site.data.home.publications %}
+              <li class="hx-pub{% if pub.award %} hx-pub--award{% endif %}">
+                {% assign first_link = pub.links | first %}
+                <a class="hx-pub__thumb" href="{{ first_link.url }}" tabindex="-1" aria-hidden="true">
+                  <img src="{% if pub.image contains '://' %}{{ pub.image }}{% else %}{{ base_path }}{{ pub.image }}{% endif %}" alt="" loading="lazy">
+                </a>
+                <div class="hx-pub__body">
+                  <h3>{{ pub.title }}</h3>
+                  <p class="hx-pub__authors">{{ pub.authors }}</p>
+                  <p class="hx-pub__venue">{{ pub.venue }}</p>
+                  {% if pub.award %}<p class="hx-pub__award">{{ pub.award }}</p>{% endif %}
+                  <p class="hx-pub__links">
+                    {% for link in pub.links %}
+                      <a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ base_path }}{{ link.url }}{% endif %}">{{ link.label }}</a>
+                    {% endfor %}
+                  </p>
+                </div>
+              </li>
+            {% endfor %}
+          </ol>
+          <p class="hx-more">
+            Full list on <a href="https://scholar.google.com.hk/citations?user=XF_6HvcAAAAJ&hl=en">Google Scholar</a>.
+            * Equal contribution.
+          </p>
+        </div>
+      </section>
+
+      <section class="hx-wrap hx-section" id="projects">
+        <header class="hx-section__label"><span>04</span><h2>Open Source</h2></header>
+        <ul class="hx-projects">
+          {% for project in site.data.home.projects %}
+            <li>
+              <a href="{% if project.url contains '://' %}{{ project.url }}{% else %}{{ base_path }}{{ project.url }}{% endif %}">
+                <strong>{{ project.name }}</strong>
+                <span>{{ project.text }}</span>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+
+      <section class="hx-wrap hx-section" id="play">
+        <header class="hx-section__label"><span>05</span><h2>Play</h2></header>
+        <div class="hx-games">
+          {% for game in site.data.home.games %}
+            <a class="hx-game{% if forloop.first %} hx-game--soar{% else %} hx-game--orbit{% endif %}" href="{% if game.url contains '://' %}{{ game.url }}{% else %}{{ base_path }}{{ game.url }}{% endif %}">
+              <span class="hx-game__art" aria-hidden="true">
+                {% if game.image %}<img src="{{ base_path }}{{ game.image }}" alt="" loading="lazy">{% else %}<i></i><i></i><i></i>{% endif %}
+              </span>
+              <span class="hx-game__body">
+                <small>{{ game.kicker }}</small>
+                <strong>{{ game.name }}</strong>
+                <span>{{ game.text }}</span>
+                <em>Play →</em>
+              </span>
+            </a>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section class="hx-wrap hx-section" id="beyond">
+        <header class="hx-section__label"><span>06</span><h2>Beyond the Lab</h2></header>
+        <div>
+          <p class="hx-beyond__text">
+            I have flown RC aircraft for years: helicopters, fixed-wing warbirds, jets, and FPV racing drones. I also build
+            tools for flight simulation, such as <a href="{{ base_path }}/foxt/">FOXTracker</a> and
+            <a href="{{ base_path }}/dcs/">DCSNoJoy</a> for DCS World.
+          </p>
+          <div class="hx-gallery">
+            <figure><img src="{{ base_path }}/images/home/rc-heli.jpg" alt="An RC helicopter and a quadrotor on a picnic table" loading="lazy"></figure>
+            <figure><img src="{{ base_path }}/images/home/rc-p51.jpg" alt="An RC P-51 Mustang with a radio transmitter" loading="lazy"></figure>
+            <figure><img src="{{ base_path }}/images/home/rc-j10.jpg" alt="An RC J-10 jet in an aerobatic team livery" loading="lazy"></figure>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="hx-footer">
+      <div class="hx-wrap hx-footer__inner">
+        <span>© {{ site.time | date: '%Y' }} Hao Xu</span>
+        <a href="mailto:xuhao3e8@gmail.com">xuhao3e8@gmail.com</a>
+        <a href="https://www.soar-lab.org/">SOARLAB</a>
+        <a href="{{ base_path }}/publications/">All publications</a>
+      </div>
+    </footer>
+  </body>
+</html>

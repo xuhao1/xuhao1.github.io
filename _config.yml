@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Xu Hao / Homepage"
+title                    : "Hao Xu"
 title_separator          : "-"
-name                     : &name "Xu Hao"
-description              : &description "PhD in Electronic and Computer Engineering (ECE)"
+name                     : &name "Hao Xu"
+description              : &description "Hao Xu (徐浩), tenure-track associate professor at Nanjing University and PI of SOARLAB, working on embodied AI for flying and humanoid robots."
 url                      : https://www.xuhao1.me # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "xuhao1/xuhao1.github.io"
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "XU Hao"
+  name             : "Hao Xu"
   avatar           : "profile.jpg"
-  bio              : "Associate Professor@Beihang University, Ph.D. in ECE, HKUST"
-  location         : "Hong Kong, China"
-  employer         :
+  bio              : "Tenure-track Associate Professor, Nanjing University · PI of SOARLAB"
+  location         : "Suzhou, China"
+  employer         : "Nanjing University"
   pubmed           : 
   email            : "xuhao3e8@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  uri              : "https://www.soar-lab.org/"
   bitbucket        :
   codepen          :
   dribbble         :

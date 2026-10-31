@@ -1,23 +1,13 @@
 ---
 permalink: /
-title: "XU Hao's Homepage"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
+layout: home
+title: "Hao Xu"
+excerpt: "Hao Xu (徐浩), tenure-track associate professor at Nanjing University and PI of SOARLAB, working on embodied AI for flying and humanoid robots."
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I am joining Nanjing Unverisity as a tenure-track associate professor at the School of Intelligence Science and Technology. I received the B.Sc. degree in Physics from the University of Science and Technology, and the Ph.D. degree in Electronic and Computer Engineering (ECE) from the Hong Kong University of Science and Technology, Hong Kong, in 2023. I worked as an algorithm engineer at Shenzhen DJI Sciences and Technologies Ltd. My research interests include embodied AI, unmanned aerial vehicles, aerial swarm, state estimation, sensor fusion, localization, and mapping.
+I am a tenure-track associate professor at the School of Intelligence Science and Technology, Nanjing University, where I lead [SOARLAB](https://www.soar-lab.org/), the Flying General Intelligence Lab. My research centers on embodied AI for drones, humanoids, and flying humanoids.
 
-In my spare time, I am interesting in RC modelairplane, including fixed-wing, helicopter and racing drone.
-
-Please check my [publications](/publications/) and [Open Source Projects](/open-source/) 
-If you are insteresting in working with me at Nanjing University, please visit my homepage at [中文](https://shi.buaa.edu.cn/xuhao/zh_CN/index.htm), [English](https://shi.buaa.edu.cn/xuhao/en_US/index.htm) and email to me.
-
-
-
-![swarm](/images/uav_swarm_5.png)
-![swarm](/images/IMG_20200228_172650.jpg)
-![swarm](/images/heli.jpg)
-![swarm](/images/heli2.jpg)
+Before NJU, I was an associate researcher at Beihang University and a multi-sensor fusion algorithm engineer at DJI, where I worked on the SLAM 2/3 localization algorithms used in the DJI Air 3S. I received my Ph.D. in Electronic and Computer Engineering from HKUST in 2023, advised by Prof. Shaojie Shen, and my B.Sc. in Physics from the University of Science and Technology of China.

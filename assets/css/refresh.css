@@ -1,0 +1,145 @@
+/* Visual refresh for pages that still use the Minimal Mistakes / AcademicPages layouts.
+   Loaded after main.css from _includes/head/custom.html so it can override the theme. */
+
+:root {
+  --hx-bg: #f6f4ef;
+  --hx-surface: #ffffff;
+  --hx-ink: #0f1d2b;
+  --hx-ink-soft: #33475a;
+  --hx-muted: #66798a;
+  --hx-line: rgba(15, 29, 43, 0.1);
+  --hx-accent: #e8562a;
+  --hx-teal: #1a8197;
+  --hx-serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Songti SC", "Noto Serif SC", serif;
+  --hx-sans:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+  background: var(--hx-bg);
+}
+
+body {
+  color: var(--hx-ink);
+  font-family: var(--hx-sans);
+  background: var(--hx-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--hx-teal);
+}
+
+a:hover {
+  color: var(--hx-accent);
+}
+
+h1,
+h2,
+h3,
+.page__title {
+  color: var(--hx-ink);
+  font-family: var(--hx-serif);
+  letter-spacing: -0.01em;
+}
+
+.page__title {
+  font-size: 2.2em;
+}
+
+/* Top bar */
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(246, 244, 239, 0.9);
+  border-bottom: 1px solid var(--hx-line);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.greedy-nav {
+  background: transparent;
+}
+
+.greedy-nav a {
+  color: var(--hx-ink-soft);
+  font-family: var(--hx-sans);
+  font-weight: 500;
+}
+
+.greedy-nav a:hover {
+  color: var(--hx-accent);
+}
+
+.masthead__menu-item--lg a {
+  color: var(--hx-ink);
+  font-family: var(--hx-serif);
+  font-weight: 700;
+}
+
+.greedy-nav button {
+  background: var(--hx-ink);
+  border-radius: 8px;
+}
+
+.greedy-nav .hidden-links {
+  background: var(--hx-surface);
+  border-color: var(--hx-line);
+  border-radius: 12px;
+}
+
+/* Sidebar profile */
+.author__avatar img {
+  border: 0;
+  border-radius: 20px;
+  box-shadow: 0 18px 40px -24px rgba(15, 29, 43, 0.5);
+}
+
+.author__name {
+  font-family: var(--hx-serif);
+}
+
+.author__bio,
+.author__urls {
+  color: var(--hx-ink-soft);
+}
+
+/* Content */
+.page__content {
+  line-height: 1.75;
+}
+
+.page__content img {
+  border-radius: 14px;
+}
+
+.archive__item {
+  padding: 0.25rem 0 0.75rem;
+  border-bottom: 1px solid var(--hx-line);
+}
+
+.archive__item-title {
+  font-family: var(--hx-sans);
+  font-weight: 700;
+}
+
+.archive__item-excerpt {
+  color: var(--hx-ink-soft);
+}
+
+.page__footer {
+  color: var(--hx-muted);
+  background: transparent;
+  border-top: 1px solid var(--hx-line);
+}
+
+.page__footer a {
+  color: var(--hx-teal);
+}
+
+.btn,
+.btn--inverse {
+  border-radius: 999px;
+}

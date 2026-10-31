@@ -1,0 +1,154 @@
+# Content for the homepage (_layouts/home.html).
+# News, selected publications, projects, and games are edited here.
+
+links:
+  - label: Email
+    url: mailto:xuhao3e8@gmail.com
+  - label: Google Scholar
+    url: https://scholar.google.com.hk/citations?user=XF_6HvcAAAAJ&hl=en
+  - label: GitHub
+    url: https://github.com/xuhao1
+  - label: Blog (中文)
+    url: http://blog.xuhao1.me
+
+interests:
+  - Embodied AI
+  - Robotics agents
+  - WAM / VLA robot foundation models
+  - Flying humanoids
+  - Aerial swarms
+  - State estimation & SLAM
+  - Sensor fusion
+
+news:
+  - date: "2026.10"
+    tag: Paper
+    text: >-
+      New preprint <a href="https://arxiv.org/abs/2610.22736"><strong>Spatial Memory by Agents, for Agents</strong></a>:
+      coding agents design a robot's spatial memory by writing code, running benchmarks, and iterating on feedback,
+      which we call Guided System Improvement (GSI). The best configuration improves the average unified score by about
+      51% over the strongest all-task baseline. With Mondo Robotics.
+      <a href="https://ba-fa-3344.github.io/">Project page</a>
+  - date: "2026.09"
+    tag: Award
+    text: >-
+      <a href="https://fegkkd.github.io/IROS2026AUG/"><strong>AUG</strong></a> received an <strong>Honorable Mention
+      for the IROS 2026 Best Paper Award on Safety, Security, and Rescue Robotics</strong>.
+  - date: "2026.09"
+    tag: Paper
+    text: >-
+      <a href="https://echo-g-project.github.io/"><strong>ECHO-G</strong></a> is out: humanoids that gesture on the beat
+      while they talk, with end-to-end whole-body control running on a Jetson Orin AGX. With Mondo Robotics and the HKUST
+      Aerial Robotics Group.
+      <a href="https://arxiv.org/abs/2609.39575">arXiv</a> · <a href="https://github.com/NJU-SOARLAB/ECHO-G">Code</a> ·
+      <a href="https://www.bilibili.com/video/BV1dJHi6DELp/">Video</a>
+  - date: "2026.04"
+    tag: Lab
+    text: >-
+      Started <a href="https://www.soar-lab.org/"><strong>SOARLAB</strong></a>, the Flying General Intelligence Lab, at
+      Nanjing University. We are recruiting Ph.D. and master's students for 2027:
+      <a href="https://www.soar-lab.org/recruiting/">admissions</a>.
+
+publications:
+  - title: "Spatial Memory by Agents, for Agents"
+    authors: "Qianwei Wang, Ce Zhang, Zhanpeng Luo, Pengpeng Su, Shuo Yang, <strong>Hao Xu</strong>"
+    venue: "arXiv preprint, 2026"
+    image: https://ba-fa-3344.github.io/assets/overview-poster.jpg
+    links:
+      - { label: arXiv, url: "https://arxiv.org/abs/2610.22736" }
+      - { label: Project, url: "https://ba-fa-3344.github.io/" }
+  - title: "ECHO-G: Embodied Co-speech Humanoid mOtion Generation"
+    authors: "Yizhao Li*, Pusen Gao*, Ming Wang, Shaojie Shen, Shuo Yang, <strong>Hao Xu</strong>"
+    venue: "arXiv preprint, 2026"
+    image: /images/pubs/echo-g.jpg
+    links:
+      - { label: arXiv, url: "https://arxiv.org/abs/2609.39575" }
+      - { label: Code, url: "https://github.com/NJU-SOARLAB/ECHO-G" }
+      - { label: Project, url: "https://echo-g-project.github.io/" }
+      - { label: Video, url: "https://www.bilibili.com/video/BV1dJHi6DELp/" }
+  - title: "AUG: Perception-Aware UAV Graph-Based Planning for GNSS-Denied Navigation in Feature-Sparse Environments"
+    authors: "Enguang Feng, Haohuan Yuan, Hong Zhang, <strong>Hao Xu</strong>, Yikun Dou, Jiarong Lin, Xiwang Dong"
+    venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026"
+    award: "Honorable Mention, IROS 2026 Best Paper Award on Safety, Security, and Rescue Robotics"
+    image: /images/pubs/aug.jpg
+    links:
+      - { label: Project, url: "https://fegkkd.github.io/IROS2026AUG/" }
+      - { label: PDF, url: "https://fegkkd.github.io/IROS2026AUG/IROS2026.pdf" }
+  - title: "Autonomous Flights Inside Narrow Tunnels"
+    authors: "Luqi Wang, Yan Ning, Hongming Chen, Peize Liu, Yang Xu, <strong>Hao Xu</strong>, Ximin Lyu, Shaojie Shen"
+    venue: "IEEE Transactions on Robotics, 2025"
+    image: /images/pubs/fint.jpg
+    links:
+      - { label: arXiv, url: "https://arxiv.org/abs/2505.19657" }
+      - { label: Code, url: "https://github.com/HKUST-Aerial-Robotics/FINT" }
+  - title: "D²SLAM: Decentralized and Distributed Collaborative Visual-Inertial SLAM System for Aerial Swarm"
+    authors: "<strong>Hao Xu</strong>, Peize Liu, Xinyi Chen, Shaojie Shen"
+    venue: "IEEE Transactions on Robotics, 2024"
+    image: /images/pubs/d2slam.jpg
+    links:
+      - { label: arXiv, url: "https://arxiv.org/abs/2211.01538" }
+      - { label: Code, url: "https://github.com/HKUST-Aerial-Robotics/D2SLAM" }
+  - title: "OmniNxt: A Fully Open-Source and Compact Aerial Robot with Omnidirectional Visual Perception"
+    authors: "Peize Liu, Chen Feng, Yang Xu, Yan Ning, <strong>Hao Xu</strong>, Shaojie Shen"
+    venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2024"
+    image: /images/pubs/omninxt.jpg
+    links:
+      - { label: arXiv, url: "https://arxiv.org/abs/2403.20085" }
+      - { label: Code, url: "https://github.com/HKUST-Aerial-Robotics/OmniNxt" }
+  - title: "RACER: Rapid Collaborative Exploration With a Decentralized Multi-UAV System"
+    authors: "Boyu Zhou, <strong>Hao Xu</strong>, Shaojie Shen"
+    venue: "IEEE Transactions on Robotics, 2023"
+    award: "IEEE Transactions on Robotics King-Sun Fu Memorial Best Paper Award"
+    image: /images/pubs/racer.jpg
+    links:
+      - { label: arXiv, url: "https://arxiv.org/abs/2209.08533" }
+      - { label: Code, url: "https://github.com/SYSU-STAR/RACER" }
+  - title: "Omni-Swarm: A Decentralized Omnidirectional Visual-Inertial-UWB State Estimation System for Aerial Swarms"
+    authors: "<strong>Hao Xu</strong>, Yichen Zhang, Boyu Zhou, Luqi Wang, Xinjie Yao, Guotao Meng, Shaojie Shen"
+    venue: "IEEE Transactions on Robotics, 2022"
+    image: /images/pubs/omni-swarm.jpg
+    links:
+      - { label: arXiv, url: "https://arxiv.org/abs/2103.04131" }
+      - { label: Code, url: "https://github.com/HKUST-Aerial-Robotics/Omni-swarm" }
+  - title: "Decentralized Visual-Inertial-UWB Fusion for Relative State Estimation of Aerial Swarm"
+    authors: "<strong>Hao Xu</strong>, Luqi Wang, Yichen Zhang, Kejie Qiu, Shaojie Shen"
+    venue: "IEEE International Conference on Robotics and Automation (ICRA), 2020"
+    image: /images/pubs/icra-uwb.jpg
+    links:
+      - { label: arXiv, url: "https://arxiv.org/abs/2003.05138" }
+      - { label: PDF, url: "/files/ICRA2020hao.pdf" }
+
+projects:
+  - name: D²SLAM
+    text: Decentralized and distributed collaborative visual-inertial SLAM for aerial swarms.
+    url: https://github.com/HKUST-Aerial-Robotics/D2SLAM
+  - name: Omni-Swarm
+    text: Omnidirectional visual-inertial-UWB state estimation for aerial swarms.
+    url: https://github.com/HKUST-Aerial-Robotics/Omni-swarm
+  - name: ECHO-G
+    text: Co-speech whole-body gesture generation for humanoid robots.
+    url: https://github.com/NJU-SOARLAB/ECHO-G
+  - name: VINS-Fisheye
+    text: Fisheye version of VINS-Fusion.
+    url: https://github.com/xuhao1/VINS-Fisheye
+  - name: FOXTracker
+    text: Webcam head tracker for flight simulators, a TrackIR alternative.
+    url: /foxt/
+  - name: pyAircraftIden
+    text: Aircraft system identification in Python.
+    url: https://github.com/xuhao1/pyAircraftIden
+
+games:
+  - name: SOAR Research Flight
+    kicker: 3D · SOARLAB homepage
+    text: >-
+      Fly the SOAR flying humanoid through Reviewer #2, code bugs, and deadline meteors in the 3D world behind the
+      SOARLAB homepage, then take the Publish Citadel.
+    url: https://www.soar-lab.org/?soar-game=1
+    image: /images/home/soarlab.png
+  - name: Orbital Sweeper
+    kicker: Three.js arcade · 轨道清道夫
+    text: >-
+      Clear debris and repair orbital nodes in a 600 km low Earth orbit, then upgrade your service ship. Inspired by
+      space-robotics research.
+    url: /orbital-sweeper/
